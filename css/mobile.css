@@ -1,0 +1,24 @@
+@media (max-width: 768px) {
+  #nav-bar .nav-bar-heading {
+    display: none;
+  }
+  #nav-bar .about{
+    flex-direction: column;
+    text-align: start;
+  }
+  #about .container{
+        grid-template-columns: 1fr;
+    }
+  #job-info .container{
+        grid-template-columns: 1fr;
+    }
+    .certificates {
+    grid-template-columns: 1fr;
+  }
+  .du-an{
+    grid-template-columns: 1fr;
+  } 
+  .project-charter{
+    grid-template-columns: 1fr;
+  }
+}
